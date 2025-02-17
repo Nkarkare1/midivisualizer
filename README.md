@@ -7,7 +7,7 @@ Here's a demo of the simulation:
 
 *Note: The framerate in the demo gif is low due to the limitations of gif encoding.*
 
-This project visualizes MIDI input from a digital piano keyboard in real-time and simulates physics using Pygame and Pymunk. Each of the 88 keys on the MIDI keyboard is mapped to one of the rectangles at the top of the screen, where each rectangle represents a key on the virtual keyboard and lights up when the corresponding MIDI note is played. When a note is played, a ball will appear and fall according to gravity, with the ball's radius based on the note's intensity. Notes with more intensity will create balls with a large radius. Holding the sustain pedal causes gravity to stop.
+This project visualizes MIDI input from a digital piano keyboard in real-time and simulates physics using Pygame and Pymunk. Each of the 88 keys on the MIDI keyboard is mapped to one of the rectangles at the top of the screen, where each rectangle represents a key on the keyboard and lights up when the corresponding MIDI note is played. For example, playing the lowest note on the piano keyboard will make a ball drop from the top left corner while playing the highest note on the piano keyboard will make a ball drop from the top right corner. When a note is played, a ball will appear and fall according to gravity, with the ball's radius based on the note's intensity. Notes with more intensity will create balls with larger radii. Holding the sustain pedal causes gravity to stop.
 
 ## Features
 - **MIDI Input**: The game listens for MIDI messages and reacts accordingly. When a note is played, a ball appears with a size corresponding to the note's intensity.
